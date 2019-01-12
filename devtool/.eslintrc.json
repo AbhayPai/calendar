@@ -1,0 +1,56 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "amd": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "standard-react"
+    ],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 80,
+                "ignoreRegExpLiterals": true
+            }
+        ],
+        "react/jsx-indent" : [
+            "error",
+            4
+        ],
+        "no-undef": "error",
+        "no-unused-vars": "error",
+        "react/jsx-indent-props": 0,
+        "no-useless-concat": "error",
+        "no-useless-escape": "error",
+        "react/no-unknown-property": 0,
+        "no-use-before-define": "error",
+        "no-underscore-dangle": "error",
+        "no-irregular-whitespace": "error",
+        "space-after-function-name": "always"
+    },
+    "globals": {
+        "App": true
+    }
+}

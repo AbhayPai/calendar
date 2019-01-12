@@ -1,0 +1,17 @@
+<div class="row">
+    <h2 class="d-block bg-info text-center p-5 mb-0 text-white col-12">{{CurrentMonth}}, {{CurrentYear}}</h2>
+    <table class="table table-bordered table-responsive-sm" id="calendar">
+        <thead>
+            <tr>
+                {{~#each WeekList ~}}
+                    <th>{{this}}</th>
+                {{/each}}
+            </tr>
+        </thead>
+        <tbody id="calendar-body"></tbody>
+    </table>
+</div>
+<div class="d-flex flex-row">
+    <button class="btn btn-outline-info flex-fill" id="previous">Previous</button>
+    <button class="btn btn-outline-info flex-fill" id="next">Next</button>
+</div>

@@ -1,0 +1,14 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "indentation": 4,
+        "selector-pseudo-element-colon-notation": null,
+        "color-hex-case": null,
+        "at-rule-no-unknown": null,
+        "declaration-empty-line-before": null,
+        "at-rule-empty-line-before": null,
+        "block-closing-brace-newline-after": ["always",
+            "ignoreAtRules": ["if", "else"]
+        ]
+    }
+}

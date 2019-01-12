@@ -1,0 +1,1 @@
+require('SassPath/vendor.scss');
