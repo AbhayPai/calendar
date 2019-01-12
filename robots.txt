@@ -1,0 +1,14 @@
+User-agent: *
+Crawl-delay: 10
+User-agent: MJ12bot
+Crawl-delay: 5
+## Directories
+# Disallow: /includes/
+## Files
+# Disallow: /CHANGELOG.txt
+
+## Paths (clean URLs)
+# Disallow: /admin/
+
+## Paths (no clean URLs)
+# Disallow: /?q=admin/
